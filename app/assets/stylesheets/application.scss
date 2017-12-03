@@ -25,13 +25,13 @@ $navbar-default-bg: black ;
 }
 
 .jumbotron {
-	background-image: asset-url("mare.jpg");
+	background-image: asset-url("farsi.jpg");
 	background-size: cover;
 	height: 550px;
 }
 
 .jumbotron h1 {
-	color: blau;
+	color: white;
 	text-align: center;
 	margin-bottom: 30px;
 	letter-spacing: -1px;
@@ -40,7 +40,9 @@ $navbar-default-bg: black ;
 
 .btn-xlarge {
 	font-size: 1.7em;
-	background-color: green;
+	background-color: white;
+	border: none;
+	color: black;
 }
 
 footer {
@@ -66,4 +68,25 @@ footer ul {
 footer ul li {
 	float: left;
 	margin-left: 15px;
+}
+
+.article-actions {
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+
+}
+
+.description{
+	margin-top: 0px;
+}
+
+.article-title {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.article-body {
+	border-top: 1px solid #eaeaea;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
